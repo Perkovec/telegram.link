@@ -1,5 +1,5 @@
 {
-  "name": "@goodmind/telegram.link",
+  "name": "@wfjsw/telegram.link",
   "version": "0.6.5",
   "description": "Telegram API library",
   "publishConfig": {
@@ -14,13 +14,12 @@
   "homepage": "http://telegram.link",
   "repository": {
     "type": "git",
-    "url": "git://github.com/goodmind/telegram.link.git"
+    "url": "git://github.com/wfjsw/telegram.link.git"
   },
   "bugs": {
     "url": "https://github.com/goodmind/telegram.link/issues"
   },
   "dependencies": {
-    "@goodmind/telegram-mt-node": "^0.9.11",
     "@goodmind/telegram-tl-node": "^0.12.4",
     "colors": "1.1.2",
     "es6-promise": "2.3.0",

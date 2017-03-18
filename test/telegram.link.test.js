@@ -1,9 +1,9 @@
 require('should');
 require('requirish')._(module);
 var telegramLink = require('lib/telegram.link')();
-var net = require('@goodmind/telegram-mt-node').net;
+var net = require('@wfjsw/telegram-mt-node').net;
 var api = require('lib/api');
-var mt = require('@goodmind/telegram-mt-node');
+var mt = require('@wfjsw/telegram-mt-node');
 
 
 describe('TelegramLink', function () {
@@ -68,7 +68,7 @@ describe('TelegramLink', function () {
 
     describe('#createAuthKey()', function () {
         var app = getApp();
-        var auth = require('@goodmind/telegram-mt-node').auth;
+        var auth = require('@wfjsw/telegram-mt-node').auth;
         // mock the 'createAuthKey' function
         auth.createAuthKey = function (callback, channel) {
             setTimeout(function () {
